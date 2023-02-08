@@ -11,7 +11,7 @@ openssl pkcs8 -topk8 -in archivo-original.key -out archivo-nuevo.key -v2prf hmac
 ```
 Donde sin alterar el archivo original, producira una nueva key con la nueva contraseña. Ojo, ambos archivos son validos para usar con el mismo certificado, no descuidar en guardar de forma segura o eliminar el archivo original. 
 
-En windows puede conseguirse binarios de openssl desde este proyecto https://slproweb.com/products/Win32OpenSSL.html , o con el el administrador de paquetes Chocolatey https://chocoltay.org
+En windows puede conseguirse binarios de openssl desde este proyecto https://slproweb.com/products/Win32OpenSSL.html , o con el el administrador de paquetes Chocolatey https://chocolatey.org
 
 ```
 choco install openssl
